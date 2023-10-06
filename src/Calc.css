@@ -9,42 +9,40 @@
 }
 
 .input, .result {
-    background-color: #2c2c64;
+    background-color: #1d1d2c;
   font-size: 24px;
    margin: 1px 0; 
-  border-radius: 5px 5px 5px 5px ;
+  border-radius: 5px;
   padding: 10px; 
-  border: 2px solid #2c2c64;
+  border: 2px solid #1d1d2c;
   width: 300px;
   text-align: right;
-  color: #d0d0d0;
-  height: 55px;
+  color: #f2efef;
+  height: 75px;
+  border-color: #e03636;
 }
 
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  background-color:  #2c2c64;
-  border-radius: 10px 10px 10px 10px;
+  background-color:  #272732;
+  border-radius: 10px;
+  
   
 }
 
 button {
-  font-size: 30px;
+  font-size: 20px;
   padding: 20px;
-  border: none;
-  background-color: #2c2c64;
+  border-color: rgb(214, 35, 53);
+  background-color: #1d1d2c;
   cursor:pointer;
-  box-shadow: -8px -8px 15px rgba(107, 102, 152, 0.1), 5px 5px 15px rgba(0,0,0,2);
+  box-shadow: -8px -8px 15px rgba(107, 102, 152, 0.1), 5px 3px 10px rgba(0,0,0,0.3);
   border-radius: 10px 10px 10px 10px;
-  color: #d0d0d0;
+  color: #f1e5e5;
 }
 
 button:hover {
-  background-color: #0f0e0e;
-}
-.eql{
-    font-size:40px;
-    padding:30px
+  background-color: #646060;
 }
